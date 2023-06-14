@@ -1,0 +1,113 @@
+body{
+    background-color:#FFFFFF;
+}
+
+/* Header styles */
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.header-list {}
+
+.header-item {}
+
+.header-adress {}
+
+.header-contacts {}
+
+.header-contacts-list {}
+
+.header-contacts-link {}
+
+/* Hero styles */
+
+.section {}
+
+.hero {}
+
+.hero-title {}
+
+.hero-btn {}
+
+/* Features styles */
+
+.section {}
+
+.features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-item-title {}
+
+.features-item-text {}
+
+/* Product styles */
+
+.section {}
+
+.product {}
+
+.product-title {}
+
+.product-list {}
+
+.product-item {}
+
+.product-img {}
+
+/* Team styles */
+
+.section {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-faces {}
+
+.team-photo {}
+
+.team-names {}
+
+.team-faces-position {}
+
+/* Footer styles*/
+.footer {}
+
+.logo {}
+
+.footer-text {}
+
+/* Portfolio styles */
+
+.main {}
+
+.section {}
+
+.portfolio {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-btn {}
+
+.pf-links {}
+
+.pf-info {}
+
+.pf-info-links {}
+
+.pf-img {}
+
+.pf-subtitle {}
+
+.pf-text {}
