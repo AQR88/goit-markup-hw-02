@@ -104,13 +104,12 @@ color:var(--main-tittle-color);
 
 /* Hero styles */
 
-.section {
-}
+.section {}
 
 .hero {
 
-    background-color: #2e2f42;
-
+    background-color:#2E2F42;
+}
 .hero-title {
    
         font-weight: 700;
@@ -145,6 +144,11 @@ color:var(--main-tittle-color);
 
 .features-title {
     
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-tittle-color);
 
 }
 
@@ -192,10 +196,10 @@ color:var(--main-tittle-color);
 /* Team styles */
 
 .section {
-    background-color: #F4F4FD;
+   
 }
 
-.team {}
+.team {background-color: #F4F4FD;}
 
 .team-title {
     font-weight: 700;
