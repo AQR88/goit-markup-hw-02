@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto+Mono:ital@1&family=Roboto:wght@400;500;700;900&family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -11,11 +18,19 @@
     <!-- Header -->
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html">
+          Web<span class="logo-span-dark">Studio</span>
+        </a>
         <ul class="header-list">
-          <li class="header-item"><a href="./index.html">Studio</a></li>
-          <li class="header-item"><a href="./portfolio.html">Portfolio</a></li>
-          <li class="header-item"><a href="">Contacts</a></li>
+          <li class="header-item">
+            <a class="header-item-id" href="./index.html">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-id" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-item-id" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address class="header-adress">
@@ -35,24 +50,24 @@
     </header>
     <!-- Portfolio main  -->
     <main class="main">
-      <section class="section portfolio">
+      <section class="section pf">
         <h1 hidden>Portfolio</h1>
         <!--Portfolio buttons -->
-        <ul class="portfolio-list">
-          <li class="portfolio-item">
-            <button class="portfolio-btn" type="button">All</button>
+        <ul class="pf-list">
+          <li class="pf-item">
+            <button class="pf-btn" type="button">All</button>
           </li>
-          <li class="portfolio-item">
-            <button class="portfolio-btn" type="button">Web Site</button>
+          <li class="pf-item">
+            <button class="pf-btn" type="button">Web Site</button>
           </li>
-          <li class="portfolio-item">
-            <button class="portfolio-btn" type="button">App</button>
+          <li class="pf-item">
+            <button class="pf-btn" type="button">App</button>
           </li>
-          <li class="portfolio-item">
-            <button class="portfolio-btn" type="button">Design</button>
+          <li class="pf-item">
+            <button class="pf-btn" type="button">Design</button>
           </li>
-          <li class="portfolio-item">
-            <button class="portfolio-btn" type="button">Marketing</button>
+          <li class="pf-item">
+            <button class="pf-btn" type="button">Marketing</button>
           </li>
         </ul>
         <!-- Porfolio links -->
@@ -179,7 +194,9 @@
     </main>
 
     <footer class="footer">
-      <a class="logo" href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html"
+        >Web <span class="logo-span-light">Studio</span>
+      </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
