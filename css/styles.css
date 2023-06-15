@@ -105,16 +105,14 @@ color:var(--main-tittle-color);
 /* Hero styles */
 
 .section {
-    background-color: var(--background-dark);
 }
 
 .hero {
-    background-color: var(--background-dark);
-}
+
+    background-color: #2e2f42;
 
 .hero-title {
-    font-family: 'Roboto';
-        font-style: normal;
+   
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -126,7 +124,6 @@ color:var(--main-tittle-color);
 .hero-btn {
     font-size: 16px;
         line-height: 1.5;
-        align-items: center;
         letter-spacing: 0.04em;
     font-weight: 500;
     background-color: #4D5AE5;
