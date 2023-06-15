@@ -1,9 +1,17 @@
 body
 {
-    background-color:#FFFFFF;
+    background-color:var(--background-light);
     font-family: "Roboto","Raleway",sans-serif;
-    color: #434455;
+    color: var(--main-text-color);
     
+}
+:root
+{
+    --background-dark: #2E2F42;
+    --background-light:#FFFFFF;
+    --main-tittle-color:#2E2F42;
+    --main-text-color:#434455;
+    --text-light-color:#FFFFFF;
 }
 
 /* Header styles */
@@ -11,35 +19,34 @@ body
 
 .header-nav 
 {
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height:1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--main-tittle-color);
 }
 
 .logo 
 {
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
 }
 
 .logo-span-dark
 {
-color: #2E2F42;
+color:var(--main-tittle-color);
 }
 
 .header-list {}
 
 .header-item {}
 
-.header-item-id{}
+.header-item-id{
+    color: var(--main-text-color);
+}
 
 .header-item-id:hover, 
 .header-item-id:focus
@@ -61,7 +68,7 @@ color: #2E2F42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--main-text-color);
     }
 
 .header-contacts-link:hover,
@@ -75,16 +82,16 @@ color: #2E2F42;
 .section {}
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--background-dark);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--text-light-color);
 }
 
 .hero-btn {
     background-color: #4D5AE5;
-    color: #FFFFFF;
+    color: var(--text-light-color);
     cursor: pointer;
 }
 
@@ -162,18 +169,19 @@ color: #2E2F42;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
+       
 }
 
-.team-faces-position {font-weight: 400;
+.team-faces-position {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;}
+   }
 
 /* Footer styles*/
 .footer 
 {
-    background-color: #2E2F42;;
+    background-color: var(--background-dark);
 }
 
 .logo {}
@@ -184,9 +192,7 @@ color: #2E2F42;
 }
 
 .footer-text {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+    
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -214,7 +220,7 @@ color: #2E2F42;
 .pf-btn:focus
 {
     background-color: #404BBF;
-    color: #FFFFFF;
+    color: var(--text-light-color);
 }
 .pf-links {}
 
@@ -228,12 +234,12 @@ color: #2E2F42;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        columns: #2E2F42;
+        color: var(--main-tittle-color);
 }
 
 .pf-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        color: #2E2F42;
+        color: var(--main-tittle-color);
 }
