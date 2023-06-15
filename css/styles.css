@@ -111,10 +111,23 @@ color:var(--main-tittle-color);
 }
 
 .hero-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.7;
+        text-align: center;
+        letter-spacing: 0.02em;
     color: var(--text-light-color);
 }
 
 .hero-btn {
+    font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+    font-weight: 500;
     background-color: #4D5AE5;
     color: var(--text-light-color);
     cursor: pointer;
@@ -132,7 +145,10 @@ color:var(--main-tittle-color);
 
 .features {}
 
-.features-title {}
+.features-title {
+    
+
+}
 
 .features-list {}
 
@@ -142,12 +158,15 @@ color:var(--main-tittle-color);
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
+  color: var(--main-tittle-color);
 }
 
 .features-item-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 /* Product styles */
@@ -162,6 +181,8 @@ color:var(--main-tittle-color);
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
+        letter-spacing: 0.02em;
+        color: var(--main-tittle-color);
 }
 
 .product-list {}
@@ -172,7 +193,9 @@ color:var(--main-tittle-color);
 
 /* Team styles */
 
-.section {}
+.section {
+    background-color: #F4F4FD;
+}
 
 .team {}
 
@@ -182,11 +205,15 @@ color:var(--main-tittle-color);
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
+        letter-spacing: 0.02em;
+        color: var(--main-tittle-color);
     }
 
 .team-list {}
 
-.team-faces {}
+.team-faces {
+    background-color: var(--background-light);
+}
 
 .team-photo {}
 
@@ -194,6 +221,8 @@ color:var(--main-tittle-color);
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--main-tittle-color);
        
 }
 
@@ -201,6 +230,7 @@ color:var(--main-tittle-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
    }
 
 /* Footer styles*/
